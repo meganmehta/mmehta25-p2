@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/CoffeeShopStarterPack/Scenes/CoffeeScene.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

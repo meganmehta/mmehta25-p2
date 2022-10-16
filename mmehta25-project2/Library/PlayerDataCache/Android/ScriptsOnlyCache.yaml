@@ -1,0 +1,3947 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - PW.SliceHelper
+    Tilia.CameraRigs.SpatialSimulator.Unity.Runtime.dll:
+    - Tilia.CameraRigs.SpatialSimulator.MouseCursorManager
+    - Tilia.CameraRigs.SpatialSimulator.ObjectControllerConfigurator
+    - Tilia.CameraRigs.SpatialSimulator.SimulatorNodeRecord
+    - Tilia.CameraRigs.SpatialSimulator.SpatialSimulatorConfigurator
+    - Tilia.CameraRigs.SpatialSimulator.TransformPropertyResetter
+    Tilia.CameraRigs.TrackedAlias.Unity.Runtime.dll:
+    - Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator
+    - Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade
+    Tilia.CameraRigs.XRPluginFramework.Unity.Runtime.dll:
+    - Tilia.CameraRigs.XRPluginFramework.XRFrameworkNodeRecord
+    Tilia.Indicators.ObjectPointers.Unity.Runtime.dll:
+    - Tilia.Indicators.ObjectPointers.PointerConfigurator
+    - Tilia.Indicators.ObjectPointers.PointerFacade
+    Tilia.Input.UnityInputManager.Runtime.dll:
+    - Tilia.Input.UnityInputManager.UnityInputManagerAxis1DAction
+    - Tilia.Input.UnityInputManager.UnityInputManagerButtonAction
+    Tilia.Input.UnityInputSystem.Runtime.dll:
+    - Tilia.Input.UnityInputSystem.Transformation.Conversion.CallbackContextToBoolean
+    - Tilia.Input.UnityInputSystem.Transformation.Conversion.CallbackContextToFloat
+    - Tilia.Input.UnityInputSystem.Transformation.Conversion.CallbackContextToVector2
+    Tilia.Interactions.Interactables.Unity.Runtime.dll:
+    - Tilia.Interactions.Interactables.Interactables.Grab.Action.GrabInteractableControlDirectionAction
+    - Tilia.Interactions.Interactables.Interactables.Grab.Action.GrabInteractableFollowAction
+    - Tilia.Interactions.Interactables.Interactables.Grab.Action.GrabInteractableNullAction
+    - Tilia.Interactions.Interactables.Interactables.Grab.Action.GrabInteractableScaleAction
+    - Tilia.Interactions.Interactables.Interactables.Grab.Action.GrabInteractableSwapAction
+    - Tilia.Interactions.Interactables.Interactables.Grab.GrabInteractableConfigurator
+    - Tilia.Interactions.Interactables.Interactables.Grab.Provider.GrabInteractableListInteractorProvider
+    - Tilia.Interactions.Interactables.Interactables.Grab.Provider.GrabInteractableStackInteractorProvider
+    - Tilia.Interactions.Interactables.Interactables.Grab.Receiver.GrabInteractableReceiver
+    - Tilia.Interactions.Interactables.Interactables.InteractableConfigurator
+    - Tilia.Interactions.Interactables.Interactables.InteractableFacade
+    - Tilia.Interactions.Interactables.Interactables.Touch.TouchInteractableConfigurator
+    - Tilia.Interactions.Interactables.Interactors.ComponentTags.AllowInteractorCollisionTag
+    - Tilia.Interactions.Interactables.Interactors.GrabInteractorConfigurator
+    - Tilia.Interactions.Interactables.Interactors.InteractorFacade
+    - Tilia.Interactions.Interactables.Interactors.Operation.Extraction.InteractorAttachPointExtractor
+    - Tilia.Interactions.Interactables.Interactors.Operation.Extraction.InteractorExtractor
+    - Tilia.Interactions.Interactables.Interactors.Operation.Extraction.InteractorPrecisionPointExtractor
+    - Tilia.Interactions.Interactables.Interactors.TouchInteractorConfigurator
+    Tilia.Locomotors.Teleporter.Unity.Runtime.dll:
+    - Tilia.Locomotors.Teleporter.TeleporterConfigurator
+    - Tilia.Locomotors.Teleporter.TeleporterFacade
+    Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
+    - UnityEngine.InputSystem.InputSettings
+    - UnityEngine.InputSystem.InputSystemObject
+    - UnityEngine.InputSystem.PlayerInput
+    - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    - UnityEngine.InputSystem.UI.InputSystemUIInputModule
+    Unity.PlasticSCM.Editor.dll:
+    - Unity.PlasticSCM.Editor.PlasticWindow
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    Unity.XR.Management.dll:
+    - UnityEngine.XR.Management.XRGeneralSettings
+    - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.Oculus.dll:
+    - Unity.XR.Oculus.OculusLoader
+    - Unity.XR.Oculus.OculusSettings
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.SpatialTracking.dll:
+    - UnityEngine.SpatialTracking.TrackedPoseDriver
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    UnityEngine.XR.LegacyInputHelpers.dll:
+    - UnityEditor.XR.LegacyInputHelpers.CameraOffset
+    Zinnia.Runtime.dll:
+    - Zinnia.Action.BooleanAction
+    - Zinnia.Action.FloatAction
+    - Zinnia.Action.StateEmitter
+    - Zinnia.Action.SurfaceChangeAction
+    - Zinnia.Action.ToggleAction
+    - Zinnia.Action.Vector2Action
+    - Zinnia.Action.Vector3Action
+    - Zinnia.Cast.ParabolicLineCast
+    - Zinnia.Cast.PhysicsCast
+    - Zinnia.Data.Collection.Counter.GameObjectObservableCounter
+    - Zinnia.Data.Collection.GameObjectRelations
+    - Zinnia.Data.Collection.List.BehaviourObservableList
+    - Zinnia.Data.Collection.List.FloatObservableList
+    - Zinnia.Data.Collection.List.GameObjectObservableList
+    - Zinnia.Data.Collection.List.GameObjectRelationObservableList
+    - Zinnia.Data.Collection.List.SerializableTypeComponentObservableList
+    - Zinnia.Data.Collection.List.StringObservableList
+    - Zinnia.Data.Collection.List.UnityObjectObservableList
+    - Zinnia.Data.Collection.Stack.GameObjectObservableStack
+    - Zinnia.Data.Operation.Mutation.TransformEulerRotationMutator
+    - Zinnia.Data.Operation.Mutation.TransformPositionMutator
+    - Zinnia.Data.Type.Transformation.Aggregation.FloatAdder
+    - Zinnia.Data.Type.Transformation.Aggregation.FloatMultiplier
+    - Zinnia.Data.Type.Transformation.Conversion.BooleanToFloat
+    - Zinnia.Data.Type.Transformation.Conversion.FloatToVector2
+    - Zinnia.Data.Type.Transformation.Conversion.FloatToVector3
+    - Zinnia.Data.Type.Transformation.Conversion.Vector2ToFloat
+    - Zinnia.Data.Type.Transformation.Conversion.Vector2ToVector3
+    - Zinnia.Event.BehaviourEnabledObserver
+    - Zinnia.Event.Proxy.EmptyEventProxyEmitter
+    - Zinnia.Event.Proxy.FloatEventProxyEmitter
+    - Zinnia.Event.Proxy.GameObjectEventProxyEmitter
+    - Zinnia.Event.Proxy.TransformDataProxyEmitter
+    - Zinnia.Event.Yield.WaitForEndOfFrameYieldEmitter
+    - Zinnia.Haptics.Collection.HapticProcessObservableList
+    - Zinnia.Haptics.TimedHapticProcess
+    - Zinnia.Haptics.XRNodeHapticPulser
+    - Zinnia.Pointer.ObjectPointer
+    - Zinnia.Pointer.PointerElement
+    - Zinnia.Process.EventProcess
+    - Zinnia.Process.Moment.Collection.MomentProcessObservableList
+    - Zinnia.Process.Moment.CompositeProcess
+    - Zinnia.Process.Moment.MomentProcess
+    - Zinnia.Process.Moment.MomentProcessor
+    - Zinnia.Rule.ActiveInHierarchyRule
+    - Zinnia.Rule.AnyComponentTypeRule
+    - Zinnia.Rule.Collection.RulesMatcherElementObservableList
+    - Zinnia.Rule.ListContainsRule
+    - Zinnia.Rule.NegationRule
+    - Zinnia.Rule.RulesMatcher
+    - Zinnia.Rule.StringInListRule
+    - Zinnia.Tracking.CameraRig.Collection.LinkedAliasAssociationCollectionObservableList
+    - Zinnia.Tracking.CameraRig.DominantControllerObserver
+    - Zinnia.Tracking.CameraRig.LinkedAliasAssociationCollection
+    - Zinnia.Tracking.Collision.Active.ActiveCollisionConsumer
+    - Zinnia.Tracking.Collision.Active.ActiveCollisionPublisher
+    - Zinnia.Tracking.Collision.Active.ActiveCollisionRegisteredConsumerContainer
+    - Zinnia.Tracking.Collision.Active.ActiveCollisionsContainer
+    - Zinnia.Tracking.Collision.Active.CollisionPointContainer
+    - Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionConsumerEventProxyEmitter
+    - Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionsContainerEventProxyEmitter
+    - Zinnia.Tracking.Collision.Active.Operation.Extraction.NotifierContainerExtractor
+    - Zinnia.Tracking.Collision.Active.Operation.Extraction.PublisherContainerExtractor
+    - Zinnia.Tracking.Collision.Active.Operation.NearestSorter
+    - Zinnia.Tracking.Collision.Active.Operation.Slicer
+    - Zinnia.Tracking.Collision.CollisionNotifier
+    - Zinnia.Tracking.Collision.CollisionTracker
+    - Zinnia.Tracking.Follow.Modifier.FollowModifier
+    - Zinnia.Tracking.Follow.Modifier.Property.Position.RigidbodyVelocity
+    - Zinnia.Tracking.Follow.Modifier.Property.Position.TransformPosition
+    - Zinnia.Tracking.Follow.Modifier.Property.Rotation.RigidbodyAngularVelocity
+    - Zinnia.Tracking.Follow.Modifier.Property.Rotation.RigidbodyForceAtPosition
+    - Zinnia.Tracking.Follow.Modifier.Property.Rotation.RotateAroundAngularVelocity
+    - Zinnia.Tracking.Follow.Modifier.Property.Rotation.TransformPositionDifferenceRotation
+    - Zinnia.Tracking.Follow.Modifier.Property.Rotation.TransformRotation
+    - Zinnia.Tracking.Follow.Modifier.Property.Scale.TransformScale
+    - Zinnia.Tracking.Follow.ObjectFollower
+    - Zinnia.Tracking.Modification.DirectionModifier
+    - Zinnia.Tracking.Modification.PinchScaler
+    - Zinnia.Tracking.Modification.PointNormalRotator
+    - Zinnia.Tracking.Modification.TransformPropertyApplier
+    - Zinnia.Tracking.SurfaceLocator
+    - Zinnia.Tracking.Velocity.AverageVelocityEstimator
+    - Zinnia.Tracking.Velocity.Collection.VelocityTrackerObservableList
+    - Zinnia.Tracking.Velocity.ComponentTrackerProxy
+    - Zinnia.Tracking.Velocity.VelocityApplier
+    - Zinnia.Tracking.Velocity.VelocityMultiplier
+    - Zinnia.Tracking.Velocity.VelocityTrackerProcessor
+    - Zinnia.Utility.BaseGameObjectSelector
+    - Zinnia.Utility.CountdownTimer
+    - Zinnia.Visual.CameraColorOverlay
+    - Zinnia.Visual.PointsRenderer
+  serializedClasses:
+    Tilia.CameraRigs.TrackedAlias.Unity.Runtime:
+    - Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/LinkedAliasAssociationCollectionUnityEvent
+    Tilia.Input.UnityInputSystem.Runtime:
+    - Tilia.Input.UnityInputSystem.Transformation.Conversion.CallbackContextToBoolean/UnityEvent
+    - Tilia.Input.UnityInputSystem.Transformation.Conversion.CallbackContextToFloat/UnityEvent
+    - Tilia.Input.UnityInputSystem.Transformation.Conversion.CallbackContextToVector2/UnityEvent
+    Tilia.Interactions.Interactables.Unity.Runtime:
+    - Tilia.Interactions.Interactables.Interactables.Grab.GrabInteractableConfigurator/UnityEvent
+    - Tilia.Interactions.Interactables.Interactables.InteractableFacade/UnityEvent
+    - Tilia.Interactions.Interactables.Interactors.InteractorFacade/UnityEvent
+    Unity.InputSystem:
+    - UnityEngine.InputSystem.InputAction
+    - UnityEngine.InputSystem.InputActionMap
+    - UnityEngine.InputSystem.InputBinding
+    - UnityEngine.InputSystem.InputControlScheme
+    - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
+    - UnityEngine.InputSystem.InputSettings/iOSSettings
+    - UnityEngine.InputSystem.PlayerInput/ActionEvent
+    - UnityEngine.InputSystem.PlayerInput/ControlsChangedEvent
+    - UnityEngine.InputSystem.PlayerInput/DeviceLostEvent
+    - UnityEngine.InputSystem.PlayerInput/DeviceRegainedEvent
+    - UnityEngine.InputSystem.iOS.PrivacyDataUsage
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.Events.UnityEvent
+    Zinnia.Runtime:
+    - Zinnia.Action.Action/BooleanUnityEvent
+    - Zinnia.Action.BooleanAction/UnityEvent
+    - Zinnia.Action.FloatAction/UnityEvent
+    - Zinnia.Action.Vector2Action/UnityEvent
+    - Zinnia.Action.Vector3Action/UnityEvent
+    - Zinnia.Cast.PointsCast/UnityEvent
+    - Zinnia.Data.Collection.Counter.GameObjectObservableCounter/UnityEvent
+    - Zinnia.Data.Collection.GameObjectRelations/GameObjectUnityEvent
+    - Zinnia.Data.Collection.List.BehaviourObservableList/UnityEvent
+    - Zinnia.Data.Collection.List.FloatObservableList/UnityEvent
+    - Zinnia.Data.Collection.List.GameObjectObservableList/UnityEvent
+    - Zinnia.Data.Collection.List.GameObjectRelationObservableList/Relation
+    - Zinnia.Data.Collection.List.GameObjectRelationObservableList/UnityEvent
+    - Zinnia.Data.Collection.List.SerializableTypeComponentObservableList/UnityEvent
+    - Zinnia.Data.Collection.List.StringObservableList/UnityEvent
+    - Zinnia.Data.Collection.List.UnityObjectObservableList/UnityEvent
+    - Zinnia.Data.Collection.Stack.GameObjectObservableStack/GameObjectElementEvents
+    - Zinnia.Data.Collection.Stack.GameObjectObservableStack/GameObjectElementEvents/UnityEvent
+    - Zinnia.Data.Operation.Extraction.ComponentGameObjectExtractor/UnityEvent
+    - Zinnia.Data.Type.SerializableType
+    - Zinnia.Data.Type.TransformData
+    - Zinnia.Data.Type.Transformation.Aggregation.FloatAdder/UnityEvent
+    - Zinnia.Data.Type.Transformation.Aggregation.FloatMultiplier/UnityEvent
+    - Zinnia.Data.Type.Transformation.Conversion.BooleanToFloat/UnityEvent
+    - Zinnia.Data.Type.Transformation.Conversion.FloatToVector2/UnityEvent
+    - Zinnia.Data.Type.Transformation.Conversion.FloatToVector3/UnityEvent
+    - Zinnia.Data.Type.Transformation.Conversion.Vector2ToFloat/UnityEvent
+    - Zinnia.Data.Type.Transformation.Conversion.Vector2ToVector3/UnityEvent
+    - Zinnia.Data.Type.Vector3State
+    - Zinnia.Event.Proxy.FloatEventProxyEmitter/UnityEvent
+    - Zinnia.Event.Proxy.GameObjectEventProxyEmitter/UnityEvent
+    - Zinnia.Event.Proxy.TransformDataProxyEmitter/UnityEvent
+    - Zinnia.Haptics.Collection.HapticProcessObservableList/UnityEvent
+    - Zinnia.Pointer.ObjectPointer/PointsRendererUnityEvent
+    - Zinnia.Pointer.ObjectPointer/UnityEvent
+    - Zinnia.Process.Component.GameObjectSourceTargetProcessor/GameObjectUnityEvent
+    - Zinnia.Process.Moment.Collection.MomentProcessObservableList/UnityEvent
+    - Zinnia.Process.ProcessContainer
+    - Zinnia.Rule.Collection.RulesMatcherElementObservableList/UnityEvent
+    - Zinnia.Rule.RuleContainer
+    - Zinnia.Rule.RulesMatcher/Element
+    - Zinnia.Tracking.CameraRig.Collection.LinkedAliasAssociationCollectionObservableList/UnityEvent
+    - Zinnia.Tracking.CameraRig.DeviceDetailsRecord/BatteryStatusUnityEvent
+    - Zinnia.Tracking.CameraRig.DeviceDetailsRecord/BoolUnityEvent
+    - Zinnia.Tracking.CameraRig.DeviceDetailsRecord/SpatialTrackingTypeUnityEvent
+    - Zinnia.Tracking.CameraRig.DominantControllerObserver/UnityEvent
+    - Zinnia.Tracking.Collision.Active.ActiveCollisionConsumer/EventData
+    - Zinnia.Tracking.Collision.Active.ActiveCollisionConsumer/UnityEvent
+    - Zinnia.Tracking.Collision.Active.ActiveCollisionPublisher/PayloadData
+    - Zinnia.Tracking.Collision.Active.ActiveCollisionPublisher/UnityEvent
+    - Zinnia.Tracking.Collision.Active.ActiveCollisionRegisteredConsumerContainer/UnityEvent
+    - Zinnia.Tracking.Collision.Active.ActiveCollisionsContainer/ActiveCollisionUnityEvent
+    - Zinnia.Tracking.Collision.Active.ActiveCollisionsContainer/EventData
+    - Zinnia.Tracking.Collision.Active.CollisionPointContainer/UnityEvent
+    - Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionConsumerEventProxyEmitter/UnityEvent
+    - Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionsContainerEventProxyEmitter/UnityEvent
+    - Zinnia.Tracking.Collision.Active.Operation.Extraction.NotifierContainerExtractor/UnityEvent
+    - Zinnia.Tracking.Collision.Active.Operation.Extraction.PublisherContainerExtractor/UnityEvent
+    - Zinnia.Tracking.Collision.CollisionNotifier/EventData
+    - Zinnia.Tracking.Collision.CollisionNotifier/UnityEvent
+    - Zinnia.Tracking.Follow.ObjectFollower/FollowEvent
+    - Zinnia.Tracking.Modification.TransformPropertyApplier/UnityEvent
+    - Zinnia.Tracking.SurfaceLocator/UnityEvent
+    - Zinnia.Tracking.Velocity.Collection.VelocityTrackerObservableList/UnityEvent
+    - Zinnia.Utility.CountdownTimer/FloatUnityEvent
+    - Zinnia.Visual.CameraColorOverlay/UnityEvent
+  methodsToPreserve:
+  - assembly: Tilia.Locomotors.Teleporter.Unity.Runtime
+    fullTypeName: Tilia.Locomotors.Teleporter.TeleporterFacade
+    methodName: Teleport
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Transformer`3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Operation.Mutation.TransformPropertyMutator
+    methodName: DoIncrementProperty
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToVector3
+    methodName: set_CurrentZ
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToVector3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToVector3
+    methodName: set_CurrentX
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToVector3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToVector3
+    methodName: set_CurrentY
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToVector3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Operation.Mutation.TransformPropertyMutator
+    methodName: DoIncrementProperty
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToVector3
+    methodName: set_CurrentZ
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToVector3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToVector3
+    methodName: set_CurrentX
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToVector3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToVector3
+    methodName: set_CurrentY
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToVector3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Operation.Mutation.TransformPropertyMutator
+    methodName: DoIncrementProperty
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Action.Action`3
+    methodName: Receive
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToVector3
+    methodName: set_CurrentZ
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToVector3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToVector3
+    methodName: set_CurrentX
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToVector3
+    methodName: DoTransform
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToVector3
+    methodName: set_CurrentY
+  - assembly: Zinnia.Runtime
+    fullTypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToVector3
+    methodName: DoTransform
+  sceneClasses:
+    Assets/CoffeeShopStarterPack/Scenes/CoffeeScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1628}
+    - Class: 114
+      Script: {instanceID: 1684}
+    - Class: 114
+      Script: {instanceID: 1702}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1728}
+    - Class: 114
+      Script: {instanceID: 1800}
+    - Class: 114
+      Script: {instanceID: 1962}
+    - Class: 114
+      Script: {instanceID: 2008}
+    - Class: 114
+      Script: {instanceID: 2182}
+    - Class: 114
+      Script: {instanceID: 2250}
+    - Class: 114
+      Script: {instanceID: 2256}
+    - Class: 114
+      Script: {instanceID: 2284}
+    - Class: 114
+      Script: {instanceID: 2320}
+    - Class: 114
+      Script: {instanceID: 2386}
+    - Class: 114
+      Script: {instanceID: 2432}
+    - Class: 114
+      Script: {instanceID: 2664}
+    - Class: 114
+      Script: {instanceID: 2672}
+    - Class: 114
+      Script: {instanceID: 2844}
+    - Class: 114
+      Script: {instanceID: 2922}
+    - Class: 114
+      Script: {instanceID: 2932}
+    - Class: 114
+      Script: {instanceID: 2998}
+    - Class: 114
+      Script: {instanceID: 3016}
+    - Class: 114
+      Script: {instanceID: 3052}
+    - Class: 114
+      Script: {instanceID: 3104}
+    - Class: 114
+      Script: {instanceID: 3122}
+    - Class: 114
+      Script: {instanceID: 3138}
+    - Class: 114
+      Script: {instanceID: 3210}
+    - Class: 114
+      Script: {instanceID: 3302}
+    - Class: 114
+      Script: {instanceID: 3342}
+    - Class: 114
+      Script: {instanceID: 3380}
+    - Class: 114
+      Script: {instanceID: 3592}
+    - Class: 114
+      Script: {instanceID: 3702}
+    - Class: 114
+      Script: {instanceID: 3872}
+    - Class: 114
+      Script: {instanceID: 3892}
+    - Class: 114
+      Script: {instanceID: 3974}
+    - Class: 114
+      Script: {instanceID: 4022}
+    - Class: 114
+      Script: {instanceID: 4074}
+    - Class: 114
+      Script: {instanceID: 4082}
+    - Class: 114
+      Script: {instanceID: 4100}
+    - Class: 114
+      Script: {instanceID: 4128}
+    - Class: 114
+      Script: {instanceID: 4148}
+    - Class: 114
+      Script: {instanceID: 4206}
+    - Class: 114
+      Script: {instanceID: 4254}
+    - Class: 114
+      Script: {instanceID: 4356}
+    - Class: 114
+      Script: {instanceID: 4450}
+    - Class: 114
+      Script: {instanceID: 4528}
+    - Class: 114
+      Script: {instanceID: 4570}
+    - Class: 114
+      Script: {instanceID: 4664}
+    - Class: 114
+      Script: {instanceID: 4676}
+    - Class: 114
+      Script: {instanceID: 4956}
+    - Class: 114
+      Script: {instanceID: 5038}
+    - Class: 114
+      Script: {instanceID: 5066}
+    - Class: 114
+      Script: {instanceID: 5090}
+    - Class: 114
+      Script: {instanceID: 5150}
+    - Class: 114
+      Script: {instanceID: 5190}
+    - Class: 114
+      Script: {instanceID: 5224}
+    - Class: 114
+      Script: {instanceID: 5540}
+    - Class: 114
+      Script: {instanceID: 5586}
+    - Class: 114
+      Script: {instanceID: 5648}
+    - Class: 114
+      Script: {instanceID: 5654}
+    - Class: 114
+      Script: {instanceID: 5672}
+    - Class: 114
+      Script: {instanceID: 5734}
+    - Class: 114
+      Script: {instanceID: 5744}
+    - Class: 114
+      Script: {instanceID: 5746}
+    - Class: 114
+      Script: {instanceID: 5786}
+    - Class: 114
+      Script: {instanceID: 5812}
+    - Class: 114
+      Script: {instanceID: 5964}
+    - Class: 114
+      Script: {instanceID: 5994}
+    - Class: 114
+      Script: {instanceID: 6002}
+    - Class: 114
+      Script: {instanceID: 6036}
+    - Class: 114
+      Script: {instanceID: 6112}
+    - Class: 114
+      Script: {instanceID: 6168}
+    - Class: 114
+      Script: {instanceID: 6170}
+    - Class: 114
+      Script: {instanceID: 6342}
+    - Class: 114
+      Script: {instanceID: 6388}
+    - Class: 114
+      Script: {instanceID: 6400}
+    - Class: 114
+      Script: {instanceID: 6436}
+    - Class: 114
+      Script: {instanceID: 6468}
+    - Class: 114
+      Script: {instanceID: 6596}
+    - Class: 114
+      Script: {instanceID: 6656}
+    - Class: 114
+      Script: {instanceID: 6726}
+    - Class: 114
+      Script: {instanceID: 6792}
+    - Class: 114
+      Script: {instanceID: 6896}
+    - Class: 114
+      Script: {instanceID: 6942}
+    - Class: 114
+      Script: {instanceID: 6982}
+    - Class: 114
+      Script: {instanceID: 7002}
+    - Class: 114
+      Script: {instanceID: 7232}
+    - Class: 114
+      Script: {instanceID: 7376}
+    - Class: 114
+      Script: {instanceID: 7420}
+    - Class: 114
+      Script: {instanceID: 7544}
+    - Class: 114
+      Script: {instanceID: 7572}
+    - Class: 114
+      Script: {instanceID: 7614}
+    - Class: 114
+      Script: {instanceID: 7628}
+    - Class: 114
+      Script: {instanceID: 7766}
+    - Class: 114
+      Script: {instanceID: 7900}
+    - Class: 114
+      Script: {instanceID: 7950}
+    - Class: 114
+      Script: {instanceID: 8020}
+    - Class: 114
+      Script: {instanceID: 8024}
+    - Class: 114
+      Script: {instanceID: 8026}
+    - Class: 114
+      Script: {instanceID: 8072}
+    - Class: 114
+      Script: {instanceID: 8152}
+    - Class: 114
+      Script: {instanceID: 8158}
+    - Class: 114
+      Script: {instanceID: 8190}
+    - Class: 114
+      Script: {instanceID: 8380}
+    - Class: 114
+      Script: {instanceID: 8500}
+    - Class: 114
+      Script: {instanceID: 8626}
+    - Class: 114
+      Script: {instanceID: 8698}
+    - Class: 114
+      Script: {instanceID: 8714}
+    - Class: 114
+      Script: {instanceID: 8744}
+    - Class: 114
+      Script: {instanceID: 8790}
+    - Class: 114
+      Script: {instanceID: 8820}
+    - Class: 114
+      Script: {instanceID: 8970}
+    - Class: 114
+      Script: {instanceID: 8976}
+    - Class: 114
+      Script: {instanceID: 9012}
+    - Class: 114
+      Script: {instanceID: 9038}
+    - Class: 114
+      Script: {instanceID: 9080}
+    - Class: 114
+      Script: {instanceID: 9082}
+    - Class: 114
+      Script: {instanceID: 9172}
+    - Class: 114
+      Script: {instanceID: 9230}
+    - Class: 114
+      Script: {instanceID: 9248}
+    - Class: 114
+      Script: {instanceID: 9254}
+    - Class: 114
+      Script: {instanceID: 9342}
+    - Class: 114
+      Script: {instanceID: 9476}
+    - Class: 114
+      Script: {instanceID: 9482}
+    - Class: 114
+      Script: {instanceID: 9538}
+    - Class: 114
+      Script: {instanceID: 9642}
+    - Class: 114
+      Script: {instanceID: 9672}
+    - Class: 114
+      Script: {instanceID: 9782}
+    - Class: 114
+      Script: {instanceID: 9916}
+    - Class: 114
+      Script: {instanceID: 9946}
+    - Class: 114
+      Script: {instanceID: 10016}
+    - Class: 114
+      Script: {instanceID: 10130}
+    - Class: 114
+      Script: {instanceID: 10170}
+    - Class: 114
+      Script: {instanceID: 10362}
+    - Class: 114
+      Script: {instanceID: 10518}
+    - Class: 114
+      Script: {instanceID: 10594}
+    - Class: 114
+      Script: {instanceID: 62384}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 56a1f7cb1efc26eaed04badcc5c177c0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: DrinkableProduct
+  - hash:
+      serializedVersion: 2
+      Hash: ab95538d86fad61c74d3075efdffd288
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Observer
+    className: IntObservableProperty
+  - hash:
+      serializedVersion: 2
+      Hash: cc3f028b85cfe7561af1b03d60896b99
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Pattern.Collection
+    className: PatternMatcherObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: c24a778d9aa393e11e54bff320ca63de
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInput
+  - hash:
+      serializedVersion: 2
+      Hash: 04e4a8b0447477cc4e933d9e5311188f
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: ArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: d92c62b9b297cb6e5c698fe77b4be0e2
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 5d40812e8060c7de0b704d397efea056
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: SliceHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 22600a92b7ff64792b324a5a16d7d2fb
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: TransformPropertyApplier
+  - hash:
+      serializedVersion: 2
+      Hash: 369ac75bccabec8d42a4da128cec94bd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: StateEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 1b1062ec0b6b4ee5fd378809ac77ff08
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables.Grab.Provider
+    className: GrabInteractableStackInteractorProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollbarValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: e36f49dcbe956674d5fd0bbb9f363415
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Rotation
+    className: RigidbodyForceAtPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 1f2cec8b8db2240187e9e28372d46fa4
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.HID.Editor
+    className: HIDDescriptorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 29cb5ccadda8ab62d8dba6d24d61faa4
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: VirtualMouseInput
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 40d966fc5d30c1054218ae18aed43230
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Association.Collection
+    className: GameObjectsAssociationObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1c0198d57eb68262d32ebe6e9908818f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Pointer
+    className: PointerElement
+  - hash:
+      serializedVersion: 2
+      Hash: 64717f1f1c2ed1041b755754604d77f2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast
+    className: PhysicsCast
+  - hash:
+      serializedVersion: 2
+      Hash: 97754f2053651386be971ec65c9109a9
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: ArtificialVelocityApplierProcess
+  - hash:
+      serializedVersion: 2
+      Hash: 1f2feea55bedf19d47c1619d83f0b6b4
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Visual
+    className: PointsRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast.Operation.Conversion
+    className: ToRaycastConverter
+  - hash:
+      serializedVersion: 2
+      Hash: 516aa998d41f606b49b7e76a6230ec5d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast.Operation.Mutation
+    className: PointsCastPropertyMutator
+  - hash:
+      serializedVersion: 2
+      Hash: 9805f7a3e230af997c3df7e82956abe0
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables.Grab.Action
+    className: GrabInteractableScaleAction
+  - hash:
+      serializedVersion: 2
+      Hash: 599b65bd99e29e4471636fcfdbbe0876
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Event.Proxy
+    className: ActiveCollisionsContainerEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 6f34aba41438478dbf4d6d1029c93d7c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.Stack
+    className: GameObjectObservableStack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactors.ComponentTags
+    className: IgnoreInteractorCollisionTag
+  - hash:
+      serializedVersion: 2
+      Hash: 66bca5cc6a18c5298ec75235e56a84d6
+    assemblyName: Tilia.CameraRigs.SpatialSimulator.Unity.Runtime.dll
+    namespaceName: Tilia.CameraRigs.SpatialSimulator
+    className: TransformPropertyResetter
+  - hash:
+      serializedVersion: 2
+      Hash: da25ebe0f3fb50d48ecc38c73319af77
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation
+    className: Vector2Restrictor
+  - hash:
+      serializedVersion: 2
+      Hash: ee39bb04f17f2f836fd1542524ef545e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Visual
+    className: MeshStateModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 211a16c9f221cabde993c863bf6b3806
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: VelocityApplier
+  - hash:
+      serializedVersion: 2
+      Hash: 4f51de75344115e016bd546494146fad
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Cache
+    className: Vector3Cache
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bdc37e1924656ef56d51d2b8a6ad837c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Utility
+    className: CountdownTimer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 934089074c05d03a922a054827375bc1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: CreateProductOnPlaceHolder
+  - hash:
+      serializedVersion: 2
+      Hash: 6f1a7bf478686f9b2a14f524c902853b
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: AdvancedDropdownWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 91d258529db2b5060a913f2afcea1a21
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e3a8e774f8c266fdb08232717a7c140e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: NavMeshRule
+  - hash:
+      serializedVersion: 2
+      Hash: 0117b37c4a91a4d9500e9b11e26f7888
+    assemblyName: Tilia.Indicators.ObjectPointers.Unity.Runtime.dll
+    namespaceName: Tilia.Indicators.ObjectPointers.Operation.Extraction
+    className: PointerFacadeComponentGameObjectExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 3722e137ff010aa33d93ec7e02c04c6f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: PatternMatcherRule
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 5362a7147cb7210959032951299dffe1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: OnClickCoverHelper
+  - hash:
+      serializedVersion: 2
+      Hash: ffe642add16635217f1d4e6c9827be75
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Process.Moment
+    className: MomentProcessor
+  - hash:
+      serializedVersion: 2
+      Hash: 59598051f74928facda8d4a9663defe7
+    assemblyName: Tilia.Input.UnityInputSystem.Runtime.dll
+    namespaceName: Tilia.Input.UnityInputSystem.Transformation.Conversion
+    className: CallbackContextToBoolean
+  - hash:
+      serializedVersion: 2
+      Hash: 0db6f8599cccbc714f0c4c58f0bc0824
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Operation.Extraction
+    className: ObjectFollowerEventDataTargetOffsetExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: a1cad9d0ea83b04540c1c4fd8be54b43
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: SurfaceDataCollisionDataExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 8802f6f4172c96979cee694a31d55dbb
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: ActionRule
+  - hash:
+      serializedVersion: 2
+      Hash: d241965d748e7586cb34be8b4a4e5609
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation
+    className: Vector2MagnitudeSetter
+  - hash:
+      serializedVersion: 2
+      Hash: de4846b2f3d174cb4cc0aea0528eb00b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: AngleToVector2Direction
+  - hash:
+      serializedVersion: 2
+      Hash: a573295d460432278f4f24c0e2b17280
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables
+    className: InteractableGrabber
+  - hash:
+      serializedVersion: 2
+      Hash: d42fa13faa0039f96ad090cc79e18af9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: FillCupHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 586db862012075ae4c6008b3ac63c013
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: ServeOrder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3ba511d6778af7ef51aac1b9a1a179fc
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables.Grab.Action
+    className: GrabInteractableSwapAction
+  - hash:
+      serializedVersion: 2
+      Hash: 9c98f0cc584f19f41bb4d006ce913975
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactors.Rule
+    className: InteractorIsTouchingRule
+  - hash:
+      serializedVersion: 2
+      Hash: c7a446581b7673aa421382573d6d42c6
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AllRule
+  - hash:
+      serializedVersion: 2
+      Hash: a47bdbd0b4b3640a320989f5348c7550
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: RigidbodyVelocityTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 6a1bbcb2b5afbd1713d3aa182022aa45
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Query
+    className: ObscuranceQuery
+  - hash:
+      serializedVersion: 2
+      Hash: f355a5f797948b860e3e37cc53343064
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision
+    className: CollisionIgnorer
+  - hash:
+      serializedVersion: 2
+      Hash: fd3349896f14ec38c7e493f7aaa12007
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables.Grab.Action
+    className: GrabInteractableControlDirectionAction
+  - hash:
+      serializedVersion: 2
+      Hash: 9c98f0cc584f19f41bb4d006ce913975
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: ActiveInHierarchyRule
+  - hash:
+      serializedVersion: 2
+      Hash: 5999876b47f3ef1abe222447fa5b979e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Event.Proxy
+    className: ObjectFollowerEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 6bab131fa4bf91be7a637398cc172b52
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: BooleanAction
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c822eec45bd7c5f6d7c8a2d82a6feb07
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: edb4cf5757e9a417dc01e44e649f9ebd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.CameraRig.Operation.Extraction
+    className: PlayAreaDimensionsExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 497fd9f5485dca6ded86b9fa34efe76f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Mutation
+    className: TransformEulerRotationMutator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4e63d43ae920e7740a05368090d0282b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation
+    className: OrderReverser
+  - hash:
+      serializedVersion: 2
+      Hash: 26d4a22c520b717bc9c2e6da1300e510
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: UnityObjectObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 363cc155fb21eac6172359c5465f3d8a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformDirectionExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 342770fb25dda19a76bf1a2d0d1f6ef8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation
+    className: Slicer
+  - hash:
+      serializedVersion: 2
+      Hash: 1ec0a53d1e6df6631ab6cdd24596fa1c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Position
+    className: TransformPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 0ecdac57d548234d1ea18320c05e98b1
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Pattern
+    className: ApplicationPatternMatcher
+  - hash:
+      serializedVersion: 2
+      Hash: e8848d2e3f01dce61d402758ef702a46
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformEulerRotationExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: be64c4e5bce21987d27bfa4722af5880
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: EmptyEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 01df172b18d160d69d9827dd57603f87
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: Vector2Subtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 438cd5f7fed440163d676917be19125e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics.Collection
+    className: HapticProcessObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast.Operation.Conversion
+    className: ToLinecastConverter
+  - hash:
+      serializedVersion: 2
+      Hash: 7615c97153e748a02e48d38dbee9503e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: Vector3Subtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 91fea73660b34ae6aa75da9123fc7f50
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactors
+    className: GrabInteractorConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 8fbc134fd506d97c845cf2b715231396
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: eb76a7d4bbabaa07343e12a64b3a80f0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: GameObjectStateMirror
+  - hash:
+      serializedVersion: 2
+      Hash: 8e440d486b1a3b88c489d856af4cabaf
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactors
+    className: TouchInteractorConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnButtonClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldEndEditMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: d0a02aa8b6bdde27be9f72c8194df787
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: ActionRegistrar
+  - hash:
+      serializedVersion: 2
+      Hash: 48290f93c4327eeb735f54302937de0f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Event.Proxy
+    className: ActiveCollisionRegisteredConsumerContainerEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: e8848d2e3f01dce61d402758ef702a46
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformPositionExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8b953c33e0fc0a4bce09334b40d004cc
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: IntegerToFloat
+  - hash:
+      serializedVersion: 2
+      Hash: 6bab131fa4bf91be7a637398cc172b52
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: ToggleAction
+  - hash:
+      serializedVersion: 2
+      Hash: 5d5b0c61f3ab6ff5f41b1bbe19764526
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenButton
+  - hash:
+      serializedVersion: 2
+      Hash: 8a1be401350daf5f9257573bd9c3853b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: SerializableTypeBehaviourObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 64ee12370a3e40d7a97d56da428fb0d7
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: Vector2ToVector3
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: f9654ab2b14c99684549e5ea6fd4992e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: ComponentEnabledStateModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 5d94b7a46dbab6dd0620d69a3a7ce2f2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: BasicGameEvents
+  - hash:
+      serializedVersion: 2
+      Hash: d4204fbbe6fa5692a241c5b01070b5a1
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow
+    className: ObjectDistanceComparator
+  - hash:
+      serializedVersion: 2
+      Hash: efc7262760d35ea312d874bce27be9c4
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics
+    className: AudioClipHapticPulser
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c61893cdd47236d314b9099fb70c3984
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatMinFinder
+  - hash:
+      serializedVersion: 2
+      Hash: a9d157235749491e94167ffe52d66f85
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: RaycastHitPointExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6306880059582c0fc270323f66a50f37
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier
+    className: FollowModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 27e4305966d57837b6c81cf88be045d0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking
+    className: SurfaceLocator
+  - hash:
+      serializedVersion: 2
+      Hash: d241965d748e7586cb34be8b4a4e5609
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation
+    className: Vector3MagnitudeSetter
+  - hash:
+      serializedVersion: 2
+      Hash: 32c33cf8ff76c86f64cbb1ceb894eecd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyBehaviourEnabledRule
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionImporterEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 2887e0979939fc486d316fb00f739b40
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: BooleanToFloat
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 5c9db84e75793292a8a3684736c896db
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyComponentTypeRule
+  - hash:
+      serializedVersion: 2
+      Hash: 72d38e959f76dd00b781a73b2435fe12
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: ConstantVelocityTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Flow.dll
+    namespaceName: Unity.VisualScripting
+    className: ScriptMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 1ec0a53d1e6df6631ab6cdd24596fa1c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Scale
+    className: TransformScale
+  - hash:
+      serializedVersion: 2
+      Hash: a5c02e5033fbaf54fb2eda11bf9b86a4
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToInteger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9517d0bf39002f9b9a065ac34bcbcfb5
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: ListContainsRule
+  - hash:
+      serializedVersion: 2
+      Hash: f7d5ec9cff9d146804cc3d69ace98bd7
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active
+    className: CollisionPointContainer
+  - hash:
+      serializedVersion: 2
+      Hash: aba939b762395520601a8a71e0dc66a1
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: GameObjectRelationObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 8ac9ec48b19e68bc439c12502b21c6dd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow
+    className: ObjectFollower
+  - hash:
+      serializedVersion: 2
+      Hash: e9825c8709698b6ac14bcd9310da230a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: XRNodeVelocityEstimator
+  - hash:
+      serializedVersion: 2
+      Hash: 79c8b4e32f8de713744393b28f8c7868
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: ComponentGameObjectExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 9d2057f53cb46ce25e04dfe6473710a2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active
+    className: ActiveCollisionPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: c61893cdd47236d314b9099fb70c3984
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatMultiplier
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnControllerColliderHitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 27ec3360f0c0a6803ba71cc3106480b8
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: cb723551329f8bbacfa9d6bbc4189291
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Process
+    className: EventProcess
+  - hash:
+      serializedVersion: 2
+      Hash: f2c849b4fb6ebf8813229d78a368ab12
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: IntEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 8ab9295d94483c961936d82d233d3df2
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRManagerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 79c8b4e32f8de713744393b28f8c7868
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables.Operation.Extraction
+    className: InteractableConsumerContainerExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: c61893cdd47236d314b9099fb70c3984
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatModeFinder
+  - hash:
+      serializedVersion: 2
+      Hash: 1d19566506f29224a1b0774b4ebd19cf
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: TransformDataProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 96f0590b435a126d472b272df07e02ef
+    assemblyName: Tilia.CameraRigs.SpatialSimulator.Unity.Runtime.dll
+    namespaceName: Tilia.CameraRigs.SpatialSimulator
+    className: SpatialSimulatorConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Flow.dll
+    namespaceName: Unity.VisualScripting
+    className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 515b5738be3ec92c13db7b5866eb53ef
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: TimeSpanToFloat
+  - hash:
+      serializedVersion: 2
+      Hash: d79be48f820686024dd0d9e080d7733b
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionAsset
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fe3c16cea1c2572764d7a799e0a39b32
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: FloatObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 79c8b4e32f8de713744393b28f8c7868
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactors.Operation.Extraction
+    className: InteractorAttachPointExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: d0c2370baa904bec264675ced4e7090f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Observer
+    className: GameObjectObservableProperty
+  - hash:
+      serializedVersion: 2
+      Hash: a9d157235749491e94167ffe52d66f85
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: RaycastHitColliderExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: c61893cdd47236d314b9099fb70c3984
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatRangeFinder
+  - hash:
+      serializedVersion: 2
+      Hash: 23b6c20b5996f9997004333f8ff832eb
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactors.Event.Proxy
+    className: InteractorFacadeEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 6f1a7bf478686f9b2a14f524c902853b
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 5449c6017388f247468bca833b616057
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast.Operation.Conversion
+    className: ToSphereCastConverter
+  - hash:
+      serializedVersion: 2
+      Hash: f334201bf4b6385c654256ccb69bd6ec
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 2c9b0973ed396fb38f61aba2b858dbef
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast.Operation.Extraction
+    className: PointsCastEventDataRaycastHitExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 4f51de75344115e016bd546494146fad
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Cache
+    className: FloatCache
+  - hash:
+      serializedVersion: 2
+      Hash: 119391f43736672a1054200339bf7d8f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics
+    className: HapticProcessor
+  - hash:
+      serializedVersion: 2
+      Hash: 1b1db168450ba28584789c506c194e9c
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputStateWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 50d893c48b1c02a4b8ede5fe28ff9e85
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: TrackedDeviceRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 08fb153aa1c17237d13ea8ca95616df2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Mutation
+    className: TransformPositionMutator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: ca57d5aeec70a7cb43ff976cf5b7bc62
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Event.Proxy
+    className: CollisionNotifierEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: VariablesSaver
+  - hash:
+      serializedVersion: 2
+      Hash: f03e715efc06166652b50734d144ef72
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: VelocityTrackerProcessor
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c8aaad1053b8416cb0d9d596a8117ef9
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.CameraRig
+    className: LinkedAliasAssociationCollection
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 7b7e24636da06ea02394779553c52626
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity.Collection
+    className: VelocityTrackerObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreak2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 90608618e194e1357ef79f40d51cda03
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast
+    className: ParabolicLineCast
+  - hash:
+      serializedVersion: 2
+      Hash: 1443db90d2c70dadf54f01ecf02a889a
+    assemblyName: Tilia.CameraRigs.TrackedAlias.Unity.Runtime.dll
+    namespaceName: Tilia.CameraRigs.TrackedAlias
+    className: TrackedAliasConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0db6f8599cccbc714f0c4c58f0bc0824
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Operation.Extraction
+    className: ObjectFollowerEventDataSourceExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 9ce606eb036442d0a0806e1bf4c6c67c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation.Extraction
+    className: NotifierContainerExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactors.ComponentTags
+    className: IgnoreInteractorOnColliderTag
+  - hash:
+      serializedVersion: 2
+      Hash: 29fa58cf0cf7d1a9c115f5a0e3aa543f
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables.Grab
+    className: InteractableGrabStateRegistrar
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 426e5bd616852254b77531cd1a8e29b6
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenStick
+  - hash:
+      serializedVersion: 2
+      Hash: a9d157235749491e94167ffe52d66f85
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: RaycastHitTransformExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 85c843949caf8eb5ddcbb3e58e864174
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactors
+    className: InteractorActionPublisherFacade
+  - hash:
+      serializedVersion: 2
+      Hash: b82c5d1e22fbcd727747106ac76cc041
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: Vector3EventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: changingstate
+  - hash:
+      serializedVersion: 2
+      Hash: c9af6fb0543682535dfae038084b3ea5
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: Vector2ComponentExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCancelMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 92ab24b113b8318f2ad6464a18ff8ba9
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Observer
+    className: Vector3ObservableProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 8b953c33e0fc0a4bce09334b40d004cc
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: StringToTimeSpan
+  - hash:
+      serializedVersion: 2
+      Hash: de05446c4c589ec267d0a09d3ab0e3e9
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule.Collection
+    className: RuleContainerObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 729d73bbc3b2c98355de5daa1f9dfd3a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: Vector2ObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 20763200d04a971ae1c369498564928b
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables.Grab.Action
+    className: GrabInteractableFollowAction
+  - hash:
+      serializedVersion: 2
+      Hash: 4cf979ef2061790b7f65ca43b5109d55
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: GameObjectStateSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: 61db3e432989757a009a98164e289228
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation.Extraction
+    className: PublisherContainerExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 739bf1716f5febbd3901b28879eb76a1
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDeviceDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: c5fd7bfc1806f78178f8b5f91e072387
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputSystemObject
+  - hash:
+      serializedVersion: 2
+      Hash: 8bf4acfb98b7cfbaad4401d31defd372
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.CameraRig
+    className: DominantControllerObserver
+  - hash:
+      serializedVersion: 2
+      Hash: f632f03f720894226f1d1b42c25ddb8a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Rotation
+    className: RotateAroundAngularVelocity
+  - hash:
+      serializedVersion: 2
+      Hash: 950a9afbc0d8c15da1f8e0edfa755dba
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: StringObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d94815c21b1597f24a8bb6300c38a5f1
+    assemblyName: Tilia.Input.UnityInputManager.Runtime.dll
+    namespaceName: Tilia.Input.UnityInputManager
+    className: UnityInputManagerButtonAction
+  - hash:
+      serializedVersion: 2
+      Hash: 5b3f6f1c50f87343f07304b19fd3dd3c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: AverageVelocityEstimatorProcess
+  - hash:
+      serializedVersion: 2
+      Hash: 6a804d67a8ef13a4a2366eed4d0d4d60
+    assemblyName: Tilia.Input.UnityInputManager.Runtime.dll
+    namespaceName: Tilia.Input.UnityInputManager
+    className: UnityInputManagerAxis1DAction
+  - hash:
+      serializedVersion: 2
+      Hash: 72e4bc6bf710206a3ce35f44be00bf12
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Position
+    className: RigidbodyVelocity
+  - hash:
+      serializedVersion: 2
+      Hash: 39455cdb49db997c8be56d1973b54329
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation
+    className: GameObjectCloner
+  - hash:
+      serializedVersion: 2
+      Hash: b7754ddae5f4947b0970c1a0263c4b6b
+    assemblyName: Tilia.CameraRigs.XRPluginFramework.Unity.Runtime.dll
+    namespaceName: Tilia.CameraRigs.XRPluginFramework
+    className: XRFrameworkNodeRecord
+  - hash:
+      serializedVersion: 2
+      Hash: a9d157235749491e94167ffe52d66f85
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: RaycastHitTextureCoordExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 8766f6d043b9bd995ee123ec6ccaefa4
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactors
+    className: InteractorFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 1b6c4b4aaf7df97d9e5e14ac9cae79b7
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: Vector3ToVector2
+  - hash:
+      serializedVersion: 2
+      Hash: 62596a2a2a9cdf0f3d9e0b8fa3b109cc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: CookingGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: d3e2fab5db19424649d4c6a6c30b367c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast
+    className: StraightLineCast
+  - hash:
+      serializedVersion: 2
+      Hash: 70cfd742f4c661cbe458cc49e4e4434e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: OrderGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: SceneVariables
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: MacroScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: c847f9cd531ef61705c3b5ba39738376
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: FloatAction
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 01df172b18d160d69d9827dd57603f87
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: Vector2Adder
+  - hash:
+      serializedVersion: 2
+      Hash: ede3d522ce29a72deb2613abda57d11e
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: RemoteInputPlayerConnection
+  - hash:
+      serializedVersion: 2
+      Hash: 95408ea2a261e0b08b5d283cc5ff0b22
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.CameraRig.Collection
+    className: LinkedAliasAssociationCollectionObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: c8111cd8bec663cfa14aa0d74a554319
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: VelocityMultiplier
+  - hash:
+      serializedVersion: 2
+      Hash: b5282125181e5b13b8c339378377f8e0
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables
+    className: InteractablePropertyCache
+  - hash:
+      serializedVersion: 2
+      Hash: bc4ecd21887314d171200f748f14f091
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active
+    className: ActiveCollisionRegisteredConsumerContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 97754f2053651386be971ec65c9109a9
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: ArtificialVelocityApplier
+  - hash:
+      serializedVersion: 2
+      Hash: 24c74cc0d527a06113f2b967042769f0
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 56a1f7cb1efc26eaed04badcc5c177c0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: ProductGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBeginDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 9349a293523d2b487173387fc1d5dcb8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: PlayerSlots
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: BaseInputOverride
+  - hash:
+      serializedVersion: 2
+      Hash: 66bca5cc6a18c5298ec75235e56a84d6
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: PointNormalRotator
+  - hash:
+      serializedVersion: 2
+      Hash: 7e394d578dea8ffa781cf49e6f9214b9
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Process.Moment
+    className: MomentProcess
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 52bcb9c2a78bdd8d98a59e915c346e75
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: fa9fec5849ab6497591c0eb3d16747b7
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation
+    className: Vector3Restrictor
+  - hash:
+      serializedVersion: 2
+      Hash: a9d157235749491e94167ffe52d66f85
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: RaycastHitDistanceExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 7df54f0f69e4b490b39970043c1b540f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Mutation
+    className: TransformScaleMutator
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 671820220a850a9c744c937ee54460f8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Mutation
+    className: RigidbodyPropertyMutator
+  - hash:
+      serializedVersion: 2
+      Hash: fc3e1e58351433939c42fd52011d5738
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: GameObjectChildByNameExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 7133581702b65be7388ded00e0202d01
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables.Grab.Receiver
+    className: GrabInteractableReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: f57c9bd74dc34dad03e4c3e4ca1f49d5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: BewerageMaker
+  - hash:
+      serializedVersion: 2
+      Hash: 0cbe2229331073d3e3a89c1b7cff61d2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Cache
+    className: IntCache
+  - hash:
+      serializedVersion: 2
+      Hash: 47080a2d768e62c538ad7a0aa9eb7c6c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification.Operation.Extraction
+    className: TransformPropertyApplierEventDataExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: GlobalMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7dad90bbf8552277671e70b2576c3a94
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: DirectionModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: a3c9ba13b7ed1576ed8106a37d6aed0c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: SurfaceChangeAction
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 79c8b4e32f8de713744393b28f8c7868
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactors.Operation.Extraction
+    className: InteractorExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 67a84cba6278b54136fb8ffcb7aca2d7
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables.Grab.Provider
+    className: GrabInteractableListInteractorProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 9efa4794821726b1179259244b66b337
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Observer
+    className: FloatObservableProperty
+  - hash:
+      serializedVersion: 2
+      Hash: e8848d2e3f01dce61d402758ef702a46
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformScaleExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c5aceb84a4c11c709218676223c229db
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: StringEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 0cdf1c2671eca4ee349fa4e49be90c5b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Association
+    className: LoadedXrDeviceAssociation
+  - hash:
+      serializedVersion: 2
+      Hash: c61893cdd47236d314b9099fb70c3984
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatMedianFinder
+  - hash:
+      serializedVersion: 2
+      Hash: 8063c55371afbd9f905995eea4ebe4bc
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Visual
+    className: CameraColorOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: 34cf1181188deed439b6e9268b665bf5
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables.Touch
+    className: TouchInteractableConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 56e75439ee8b2f4e3fd0dc19ee09aec8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.Counter
+    className: GameObjectObservableCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameInvisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: a9d157235749491e94167ffe52d66f85
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: RaycastHitRigidbodyExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: cb3de8133764f690e9d3547acf1582eb
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables
+    className: InteractableFacade
+  - hash:
+      serializedVersion: 2
+      Hash: c61893cdd47236d314b9099fb70c3984
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatSubtractor
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: afeb1f5911c0776294766782e1ea80ab
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: DominantControllerRule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 7fe5a6cd3f31a4c348ea2c0f1cd530f7
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision
+    className: CollisionNotifier
+  - hash:
+      serializedVersion: 2
+      Hash: 515b5738be3ec92c13db7b5866eb53ef
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToTimeSpan
+  - hash:
+      serializedVersion: 2
+      Hash: b30331d2165453b5281995064ff49f32
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection
+    className: GameObjectRelations
+  - hash:
+      serializedVersion: 2
+      Hash: ccd8a6bbb95daac9a0d0a6bd6024b4d6
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Pointer
+    className: ObjectPointer
+  - hash:
+      serializedVersion: 2
+      Hash: a7a7d967abd615eca7d39d2624c51f71
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyLayerRule
+  - hash:
+      serializedVersion: 2
+      Hash: 25d06a1267c2cd9d5eb4d34b597d94a0
+    assemblyName: Tilia.Indicators.ObjectPointers.Unity.Runtime.dll
+    namespaceName: Tilia.Indicators.ObjectPointers
+    className: PointerConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 4bf160fc559d3ab61f12c1fe50ffeae7
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: CameraObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: e90daabce256e21953534ec5ca23a970
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Pointer.Operation.Mutation
+    className: PointerElementPropertyMutator
+  - hash:
+      serializedVersion: 2
+      Hash: d85b490177c3124d2335460060a2b807
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.State.dll
+    namespaceName: Unity.VisualScripting
+    className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: fc169718e5fd24cea7425f24908c0418
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 59598051f74928facda8d4a9663defe7
+    assemblyName: Tilia.Input.UnityInputSystem.Runtime.dll
+    namespaceName: Tilia.Input.UnityInputSystem.Transformation.Conversion
+    className: CallbackContextToVector3
+  - hash:
+      serializedVersion: 2
+      Hash: 0ffefc23e9f1b188b76c9ddb0a28c7e9
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: Vector2EventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 8ba746f7865d2920f75f302d709503ad
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation
+    className: NearestSorter
+  - hash:
+      serializedVersion: 2
+      Hash: 3402e394f7b5cc71ddc8942190ddff43
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToBoolean
+  - hash:
+      serializedVersion: 2
+      Hash: d91eaaf60e414795fa53a84246fccecb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScreenShotHelper
+  - hash:
+      serializedVersion: 2
+      Hash: c61893cdd47236d314b9099fb70c3984
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatMaxFinder
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: fa858e990d5de6b2744748857c2874fd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Pattern
+    className: XRDevicePatternMatcher
+  - hash:
+      serializedVersion: 2
+      Hash: b5ad3eafc85b336aa910dba2e7687591
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: ProgressHelper
+  - hash:
+      serializedVersion: 2
+      Hash: fe1aeee1d67ad4f0019e62faa560438d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: ComponentRigidbodyExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: a161571c9690d75cb88ad0f1683b28d5
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformDataGameObjectExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 017ded78c8608bd8ea6d91f5a47ea2f4
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToVector2
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables.Grab
+    className: InteractableGrabDropRestrictor
+  - hash:
+      serializedVersion: 2
+      Hash: 59db520d6944c03a9f1e304c078deea8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Rotation
+    className: TransformPositionDifferenceRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: AnimatorMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b144be5dedfe02c8d3b69f90b2801528
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: Vector3ObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 4482a85164cb626b1a4edba7f2279dbe
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: Vector3EqualsRule
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 45e062a934bc93460b34896c9d171e5b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: IntInRangeRule
+  - hash:
+      serializedVersion: 2
+      Hash: 17495434a160a8a0f7bd32a81a16db8d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: ProductManager
+  - hash:
+      serializedVersion: 2
+      Hash: dcb828d92622119b1be8901145dd2ca0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Process.Moment
+    className: CompositeProcess
+  - hash:
+      serializedVersion: 2
+      Hash: 7e47ec47adac55b69a4511aa678d6ac1
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event
+    className: BehaviourEnabledObserver
+  - hash:
+      serializedVersion: 2
+      Hash: 0db6f8599cccbc714f0c4c58f0bc0824
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Operation.Extraction
+    className: ObjectFollowerEventDataTargetExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: bcac67fc244f1f4fa80b41900b3550df
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: BasicCameraControl
+  - hash:
+      serializedVersion: 2
+      Hash: cd8354af6d0b71aec8a729cd89c76f28
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule.Collection
+    className: RulesMatcherElementObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: dc9bf1185f30949328531fde0be64b20
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: StringMatchesRule
+  - hash:
+      serializedVersion: 2
+      Hash: 5fdf4db7d3b0bcdf09ad4911a6d940be
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: FloatEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 1b72c8b14e59dc2f455f9a13921b6ccd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToNormalizedFloat
+  - hash:
+      serializedVersion: 2
+      Hash: f261b7cb139c819ee7a3dd38b57207f7
+    assemblyName: Tilia.Locomotors.Teleporter.Unity.Runtime.dll
+    namespaceName: Tilia.Locomotors.Teleporter
+    className: TeleporterConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fe1aeee1d67ad4f0019e62faa560438d
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables.Operation.Extraction
+    className: InteractableFacadeExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 79c8b4e32f8de713744393b28f8c7868
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables.Operation.Extraction
+    className: InteractableConsumerRigidbodyExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: c7a446581b7673aa421382573d6d42c6
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyRule
+  - hash:
+      serializedVersion: 2
+      Hash: 3b0fe67ed2742e61a1aca10fae02c32f
+    assemblyName: Tilia.Indicators.ObjectPointers.Unity.Runtime.dll
+    namespaceName: Tilia.Indicators.ObjectPointers
+    className: PointerFacade
+  - hash:
+      serializedVersion: 2
+      Hash: f6e282b02d9a0905e7bbec50b200b25c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: ReadyToServe
+  - hash:
+      serializedVersion: 2
+      Hash: 951b9c99a77334c7affe18c035c4c079
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: GameObjectObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 5530fe0341bac22da0dda61640413846
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: Vector2ToAngle
+  - hash:
+      serializedVersion: 2
+      Hash: e09e8bebc0fcd32bb8af1287a6b44816
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 0ecdac57d548234d1ea18320c05e98b1
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Pattern
+    className: SystemInfoPatternMatcher
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 3253734f7de060c565895d838fa9e7a6
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision
+    className: CollisionTracker
+  - hash:
+      serializedVersion: 2
+      Hash: d50c3f33d57e5b5496b3e405fc382e4b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: RulesMatcher
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Tilia.CameraRigs.SpatialSimulator.Unity.Runtime.dll
+    namespaceName: Tilia.CameraRigs.SpatialSimulator
+    className: MouseCursorManager
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d4345b0aee8f69d13d5ce5d956c7d719
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active
+    className: ActiveCollisionsContainer
+  - hash:
+      serializedVersion: 2
+      Hash: c61893cdd47236d314b9099fb70c3984
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatMeanFinder
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 566a267a9d1c93e2b05f7290302b9eda
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables
+    className: InteractableActionReceiverFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 7615c97153e748a02e48d38dbee9503e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: Vector3Adder
+  - hash:
+      serializedVersion: 2
+      Hash: 59598051f74928facda8d4a9663defe7
+    assemblyName: Tilia.Input.UnityInputSystem.Runtime.dll
+    namespaceName: Tilia.Input.UnityInputSystem.Transformation.Conversion
+    className: CallbackContextToVector2
+  - hash:
+      serializedVersion: 2
+      Hash: 79c8b4e32f8de713744393b28f8c7868
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactors.Operation.Extraction
+    className: InteractorPrecisionPointExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.EnhancedTouch
+    className: TouchSimulation
+  - hash:
+      serializedVersion: 2
+      Hash: 287a4aa7392bcfb309b4d7b4dc89eb3c
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputEditor
+  - hash:
+      serializedVersion: 2
+      Hash: a9d157235749491e94167ffe52d66f85
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: RaycastHitNormalExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 5b3f6f1c50f87343f07304b19fd3dd3c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: AverageVelocityEstimator
+  - hash:
+      serializedVersion: 2
+      Hash: bc754f7f853814a45ad7981cf56ed412
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables.Grab
+    className: InteractableGrabStateEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI.Editor
+    className: InputSystemUIInputModuleEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionAssetEditor
+  - hash:
+      serializedVersion: 2
+      Hash: d3f29ba27f28c1f558880c4df5545ed3
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: 
+    className: DownloadableSample
+  - hash:
+      serializedVersion: 2
+      Hash: 59598051f74928facda8d4a9663defe7
+    assemblyName: Tilia.Input.UnityInputSystem.Runtime.dll
+    namespaceName: Tilia.Input.UnityInputSystem.Transformation.Conversion
+    className: CallbackContextToFloat
+  - hash:
+      serializedVersion: 2
+      Hash: d3470c2c8c724f98528a0f4148f09d91
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Query
+    className: FacingQuery
+  - hash:
+      serializedVersion: 2
+      Hash: 82611117e47ae0243e4512cf986b17a6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: StoveGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: f2aef6b6f2b5e4496aa71a0dccdcb638
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast.Operation.Conversion
+    className: ToBoxCastConverter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: e6ff002dbd41e0f670a9c9707c4bfad4
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: AllAction
+  - hash:
+      serializedVersion: 2
+      Hash: 2cc6e3fe557489b68cf473ef1f6dc957
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables
+    className: InteractableActionReceiverConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 01df172b18d160d69d9827dd57603f87
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: Vector2Multiplier
+  - hash:
+      serializedVersion: 2
+      Hash: 76aef43e801605d1829c8805eeee135c
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionReference
+  - hash:
+      serializedVersion: 2
+      Hash: 952cf00d359cc3b12d8fbf06ff4fb86d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Observer
+    className: CameraObservableProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f84435a9189dad952ab27aef271adfd3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast.Operation.Conversion
+    className: ToCapsuleCastConverter
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3ba511d6778af7ef51aac1b9a1a179fc
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables.Grab.Action
+    className: GrabInteractableAction
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 9ce606eb036442d0a0806e1bf4c6c67c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation.Extraction
+    className: NotifierTargetExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: fe1aeee1d67ad4f0019e62faa560438d
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactors.Operation.Extraction
+    className: InteractorFacadeExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: a1cad9d0ea83b04540c1c4fd8be54b43
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: SurfaceDataCollisionPointExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 9c98f0cc584f19f41bb4d006ce913975
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactors.Rule
+    className: InteractorIsGrabbingRule
+  - hash:
+      serializedVersion: 2
+      Hash: d251bf88db6c95a6b1aa0b69298da9ef
+    assemblyName: UnityEngine.SpatialTracking.dll
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ee853cdea551598dcf20ec3e2d9812f3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics
+    className: TimedHapticProcess
+  - hash:
+      serializedVersion: 2
+      Hash: bdb6cdbf71a62825702f36dc51ba69f1
+    assemblyName: Tilia.CameraRigs.SpatialSimulator.Unity.Runtime.dll
+    namespaceName: Tilia.CameraRigs.SpatialSimulator
+    className: SimulatorNodeRecord
+  - hash:
+      serializedVersion: 2
+      Hash: 1ec0a53d1e6df6631ab6cdd24596fa1c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Rotation
+    className: TransformRotation
+  - hash:
+      serializedVersion: 2
+      Hash: b0742f5133f3bcabe21ee31097d5490b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: CookableProduct
+  - hash:
+      serializedVersion: 2
+      Hash: 280b80d28103173b115ba2799e4a636b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action.Collection
+    className: ActionObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 7d007c9e235632a07e46fef03804bfda
+    assemblyName: Tilia.CameraRigs.TrackedAlias.Unity.Runtime.dll
+    namespaceName: Tilia.CameraRigs.TrackedAlias
+    className: TrackedAliasFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 6def8bbe34aaa634aa97bfa61b2cff76
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Yield
+    className: WaitForSecondsYieldEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 84326c9e706eaf7bd30bebf9b30c1784
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables.Event.Proxy
+    className: InteractableFacadeEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 8a1be401350daf5f9257573bd9c3853b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: SerializableTypeComponentObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: c952fd4b617a2734d0f6166a44697272
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: Microwave
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0cbe2229331073d3e3a89c1b7cff61d2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Cache
+    className: StringCache
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollRectValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0ecdac57d548234d1ea18320c05e98b1
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Pattern
+    className: XRSettingsPatternMatcher
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactors.ComponentTags
+    className: AllowInteractorCollisionTag
+  - hash:
+      serializedVersion: 2
+      Hash: c1b5292ade62a032faebb88f0850b3f4
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Event.Proxy
+    className: ActiveCollisionConsumerEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: fdc01b43d4746a6aabc40799edd31866
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: PinchScaler
+  - hash:
+      serializedVersion: 2
+      Hash: bef4ac49581c2b588cf65c41e463f9b4
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Association
+    className: PlatformDeviceAssociation
+  - hash:
+      serializedVersion: 2
+      Hash: 97e7c06bf59d85b7ddd64c9655902a27
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables.Grab
+    className: GrabInteractableConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 6943f561490fef37d732dae57a12c18d
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c26fcdc6792ab82a113c74c9480f81f1
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TimeComponentExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: fff7ea4044eb79590e38789966c66e17
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: Vector3Action
+  - hash:
+      serializedVersion: 2
+      Hash: 0a561a3d4b260ad3115b39649549f2df
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables.Grab.Action
+    className: GrabInteractableNullAction
+  - hash:
+      serializedVersion: 2
+      Hash: 843bcee79f62aa9da7d9bdd113a231b0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: VelocityEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 95046b8c348faed6cceff8898f3693c8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: GameObjectMultiRelationObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 141b6f284a4e8bc6ca482dc3556f287a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Association
+    className: GameObjectsAssociationActivator
+  - hash:
+      serializedVersion: 2
+      Hash: 8b953c33e0fc0a4bce09334b40d004cc
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: StringToFloat
+  - hash:
+      serializedVersion: 2
+      Hash: f838d160147e5b1182ba8b20e890cc86
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: NegationRule
+  - hash:
+      serializedVersion: 2
+      Hash: 6e635ede14d8eca6c2ce3d69c978c23b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation
+    className: FloatRangeValueRemapper
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ab4697ba523034878c27e9152b50b847
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: Vector2Action
+  - hash:
+      serializedVersion: 2
+      Hash: b4e7db8026eb599b98398540d8028742
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics
+    className: XRNodeHapticPulser
+  - hash:
+      serializedVersion: 2
+      Hash: ac27af245c9b9976d33459d96ce58f01
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Association
+    className: RuleAssociation
+  - hash:
+      serializedVersion: 2
+      Hash: a9f0d626f35bfcb22852796d19fc249d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Rotation
+    className: RigidbodyAngularVelocity
+  - hash:
+      serializedVersion: 2
+      Hash: 179823ae48f09d2ff9df1063165217a0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Pointer.Event.Proxy
+    className: ObjectPointerEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 0cbe2229331073d3e3a89c1b7cff61d2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Cache
+    className: GameObjectCache
+  - hash:
+      serializedVersion: 2
+      Hash: fd3f9c18a28396645a36e06dc761bfec
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToVector3
+  - hash:
+      serializedVersion: 2
+      Hash: 79c8b4e32f8de713744393b28f8c7868
+    assemblyName: Tilia.Indicators.ObjectPointers.Unity.Runtime.dll
+    namespaceName: Tilia.Indicators.ObjectPointers.Operation.Extraction
+    className: PointerFacadeGameObjectExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UFOrotation
+  - hash:
+      serializedVersion: 2
+      Hash: a523d3d15b8bf24f3bcef028cdaddab2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: FloatInRangeRule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7615c97153e748a02e48d38dbee9503e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: Vector3Multiplier
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 2f755dbdfe1500bc2afc630f7e88450f
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: InputSystemUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 65351037cbe796343b8193eaed254bec
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active
+    className: ActiveCollisionConsumer
+  - hash:
+      serializedVersion: 2
+      Hash: 4f51de75344115e016bd546494146fad
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Cache
+    className: Vector2Cache
+  - hash:
+      serializedVersion: 2
+      Hash: 31b4948315d6062a93c135b20d01206f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: Vector2EqualsRule
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: f8e78a3b9ad72259c623087e27fa8428
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: ComponentTrackerProxy
+  - hash:
+      serializedVersion: 2
+      Hash: 130768ab6b14e08a15e1b3df41f64c6f
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactors
+    className: InteractorActionPublisherConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 3d3a2e2d68ece8c4a7a01f231900039b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: Vector3ToFloat
+  - hash:
+      serializedVersion: 2
+      Hash: fb4d0bce7d26d63534eeb51754edcf15
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactors.Collection
+    className: InteractorFacadeObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: e6ff002dbd41e0f670a9c9707c4bfad4
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: AnyAction
+  - hash:
+      serializedVersion: 2
+      Hash: 373c8e41504768ca2031ba433617ecb3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Yield
+    className: WaitForFixedUpdateYieldEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: d13b3cf5a228f9790d3d154e524198cc
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactables
+    className: InteractableConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 6def8bbe34aaa634aa97bfa61b2cff76
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Yield
+    className: WaitForSecondsRealtimeYieldEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 046d095ff8696299536de2574c882733
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: StringInListRule
+  - hash:
+      serializedVersion: 2
+      Hash: b4a52f3390d60f90f28de824886e2356
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Observer
+    className: StringObservableProperty
+  - hash:
+      serializedVersion: 2
+      Hash: 70c4ad26ba3583ad2fda7c7dc7c1959c
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactors.Collection
+    className: InteractorActionPublisherFacadeObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 32705228e1085613c0da48efb8ccf5cb
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Observer
+    className: Vector2ObservableProperty
+  - hash:
+      serializedVersion: 2
+      Hash: b5a615067baeb002ec521a92625aad46
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation
+    className: GameObjectDestroyer
+  - hash:
+      serializedVersion: 2
+      Hash: 893dbdbfe611d62e230a686ea89f1efd
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 680e3bec1879ffe05730b337a86ec2e4
+    assemblyName: Tilia.CameraRigs.SpatialSimulator.Unity.Runtime.dll
+    namespaceName: Tilia.CameraRigs.SpatialSimulator
+    className: ObjectControllerConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 77f368ee4924d1697f11459ad85c4d66
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: ProductWithCover
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c1f5356fcd27668ddc25078e27f9828d
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.UI
+    className: MultiplayerEventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 0c0de2f7c1bf4ae212dd450893215935
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast
+    className: FixedLineCast
+  - hash:
+      serializedVersion: 2
+      Hash: 72763ba72b43403ee09a4c54b07cb346
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem.XR
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 62596a2a2a9cdf0f3d9e0b8fa3b109cc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: PanGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: 30356c7bc98a234fb32b90f0db63e2a3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: SurfaceDataProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseOverMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e55907eb2a51f7a667dbc1bc6a51c6d3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Process.Moment.Collection
+    className: MomentProcessObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: Variables
+  - hash:
+      serializedVersion: 2
+      Hash: b127994ffa060abf417789e2a71c447a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: GameObjectEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.State.dll
+    namespaceName: Unity.VisualScripting
+    className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: c61893cdd47236d314b9099fb70c3984
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatAdder
+  - hash:
+      serializedVersion: 2
+      Hash: b781422d477ffa400b0ad9a8c8ef3e82
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: DeleteProductOnSlot
+  - hash:
+      serializedVersion: 2
+      Hash: cf363ff9061c424e9b1833bc61fb79a1
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactors
+    className: InteractorFacadeSettingsModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 04fa231eac7734f1d1c0a0aa11640fac
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Operation.Extraction
+    className: ObjectDistanceComparatorEventDataExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: bfff67bff4bd5310b0b005cbb863c92c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyTagRule
+  - hash:
+      serializedVersion: 2
+      Hash: 3d3a2e2d68ece8c4a7a01f231900039b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: Vector2ToFloat
+  - hash:
+      serializedVersion: 2
+      Hash: 777071a69f1b36688e99eaaf08e9f7e1
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToString
+  - hash:
+      serializedVersion: 2
+      Hash: 4c3fb8eae3436200581d2b964387748b
+    assemblyName: Tilia.Locomotors.Teleporter.Unity.Runtime.dll
+    namespaceName: Tilia.Locomotors.Teleporter
+    className: TeleporterFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 4a4827fc70910078a2cb5b1c64cd6499
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics
+    className: AudioSourceHapticPulser
+  - hash:
+      serializedVersion: 2
+      Hash: 41d7ad47dbd3388b8ff3e431593c25cb
+    assemblyName: Tilia.Input.UnityInputManager.Runtime.dll
+    namespaceName: Tilia.Input.UnityInputManager
+    className: UnityInputManagerAxis2DAction
+  - hash:
+      serializedVersion: 2
+      Hash: 1b72c8b14e59dc2f455f9a13921b6ccd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: NormalizedFloatToFloat
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Tilia.Interactions.Interactables.Unity.Runtime.dll
+    namespaceName: Tilia.Interactions.Interactables.Interactors.ComponentTags
+    className: IgnoreInteractorOnContainingTransformTag
+  - hash:
+      serializedVersion: 2
+      Hash: 11d42cbe338b20ed6e5e467fe05a0608
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: BehaviourObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 766d1e816bcaf02d44dc1df06af2bf9a
+    assemblyName: Unity.InputSystem.dll
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 44a0f56176469b9b069b216fb2de75f1
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Event.Proxy
+    className: ActiveCollisionPublisherEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3b017059ed67770ce1ee6c7339bcfd6d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action.Collection
+    className: ActionRegistrarSourceObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: ec4c1d7d9fe98434976788ebc4ee261e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 777071a69f1b36688e99eaaf08e9f7e1
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: TimeSpanToString
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Utility
+    className: BaseGameObjectSelector
+  - hash:
+      serializedVersion: 2
+      Hash: 8ce1951a5e67c91fe168e075a2b8da47
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PW
+    className: HeatableProduct
+  - hash:
+      serializedVersion: 2
+      Hash: 373c8e41504768ca2031ba433617ecb3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Yield
+    className: WaitForEndOfFrameYieldEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSliderValueChangedMessageListener
+  platform: 13
+  scenePathNames:
+  - Assets/CoffeeShopStarterPack/Scenes/CoffeeScene.unity
+  playerPath: /Users/meganmehta/Downloads/p2-test2.apk

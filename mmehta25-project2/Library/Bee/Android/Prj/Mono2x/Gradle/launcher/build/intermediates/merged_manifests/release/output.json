@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.CS428.P2.andy",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1,
+        "versionName": "0.1",
+        "outputFile": "launcher-release.apk",
+        "fullName": "release",
+        "baseName": "release",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.CS428.P2.andy",
+        "split": "",
+        "minSdkVersion": "23"
+      }
+    }
+  ]
+}
