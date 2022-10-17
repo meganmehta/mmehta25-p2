@@ -3,8 +3,9 @@
 This code repository contains a folder with all of the code necessary to run this project. Before cloning this repository, make sure you have the following downloaded:
 - [Unity 2021.3.6f1](https://unity3d.com/unity/whats-new/2021.3.6)
 - [Unity Hub](https://unity3d.com/get-unity/download)
+- [VRTK v4](https://assetstore.unity.com/packages/tools/utilities/vrtk-v4-tilia-package-importer-214936)
 
-After these softwares are downloaded, clone this repo to whatever location you want locally. Here are some simple steps below: 
+VRTK v4 can only be downloaded in Unity, so that will be the last step. After these softwares are downloaded, clone this repo to whatever location you want locally. Here are some simple steps below: 
 
 ```
 cd 
