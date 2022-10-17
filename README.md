@@ -12,9 +12,13 @@ git clone https://github.com/meganmehta/mmehta25-p2.git
 ```
 After cloning, open this project file within Unity Hub (this will automatically open in Unity). Remember to open the `mmehta25-project2` folder.
 
-the application. Hold up the physical cubes to the webcam, and you should see the digital cubes pop up. It should look something like this...
+If you have an Oculus Quest headset, you can run this project directly on the headset by connecting it to your computer. Then, in Unity click `File` then `Build Settings` and select `Android` then click `Build and Run`. If you don't see this option available, you probably don't have the Anroid SDK or modules downloaded. To do this, go to Unity Hub and click `Installs` on the left menu, and click the settings icon on the Unity version, you should be able to add the Android module from there. 
 
-<img width="401" alt="image1" src="https://user-images.githubusercontent.com/29783726/191116021-f4cd7a9b-7920-4e66-9a71-7bc06a0438c9.png">
+After `Build and Run` is clicked, navigate to the Quest headset settings and going to the `Developer` section - make sure `USB Connection Dialog` is on. Then, go back to the Unity project on your computer and enable `CameraRigs.UnityXRPluginFramework`. You can do this by right-clicking on it in the Unity hierarchy and clicking `Toggle Active Status`. Also, disable `CameraRigs.SpatialSimulator`. 
+
+It may take a few minutes to load on the headset, but if you run into any errors try replugging in the headset or rebuilding the project for the Anroid platform. If it doesn't automatically show on the headset, you can try looking in the apps to see if it pops up as an `Unknown Source`. 
+
+If you do not have a VR headset, not to worry! You can also just run the project on your computer. To do this, change the build settings to be `Windows, Mac, and Linux` and then click `Build and Run`. It should automatically run on your screen, but if not, press the Play button in the center of the Unity window, and Switch to `Game` mode near the top left. You can use the WASD keys to interact in the scene, and use keys 1,2, and 3 to use the controllers and your mouse to grab the objects. 
 
 If you'd like to read more about the project details, check out
-the documentation [here](https://mmehta25.people.uic.edu/428p1.html).
+the documentation [here](https://mmehta25.people.uic.edu/428p2.html).
