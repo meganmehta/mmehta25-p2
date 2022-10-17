@@ -20,5 +20,10 @@ It may take a few minutes to load on the headset, but if you run into any errors
 
 If you do not have a VR headset, not to worry! You can also just run the project on your computer. To do this, change the build settings to be `Windows, Mac, and Linux` and then click `Build and Run`. It should automatically run on your screen, but if not, press the Play button in the center of the Unity window, and Switch to `Game` mode near the top left. You can use the WASD keys to interact in the scene, and use keys 1,2, and 3 to use the controllers and your mouse to grab the objects. 
 
+If you run this project on your laptop, it should look something like this...
+
+<img width="401" alt="image1" src="https://github.com/meganmehta/mmehta25-p2/blob/main/i2.jpg">
+
+
 If you'd like to read more about the project details, check out
 the documentation [here](https://mmehta25.people.uic.edu/428p2.html).
